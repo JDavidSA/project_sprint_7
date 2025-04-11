@@ -24,3 +24,9 @@ La app permite visualizar información clave sobre los vehículos disponibles, i
 1. Asegúrate de tener Python instalado.
 2. Instala las dependencias necesarias:
    streamlit, pandas, plotly
+
+## 🌐 Accede al proyecto en línea
+
+Haz clic en el siguiente enlace para abrir la app directamente en tu navegador:
+
+🔗 https://project-sprint-7-egxb.onrender.com
