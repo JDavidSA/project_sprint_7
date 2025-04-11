@@ -12,14 +12,14 @@ st.title("Análisis de Vehículos Usados")
 # Casilla para mostrar histograma
 if st.checkbox('Mostrar histograma del precio'):
     st.write("Distribución de precios de los vehículos")
-    fig_hist = px.histogram(df, x='price', nbins=50,
+    fig_hist = px.histogram(car_data, x='price', nbins=50,
                             title='Distribución de precios')
     st.plotly_chart(fig_hist)
 
 # Casilla para mostrar gráfico de dispersión
 if st.checkbox('Mostrar gráfico de dispersión: precio vs odómetro'):
     st.write("Relación entre precio y kilometraje (odómetro)")
-    fig_scatter = px.scatter(df, x='odometer', y='price',
+    fig_scatter = px.scatter(car_data, x='odometer', y='price',
                              title='Precio vs Odómetro',
                              labels={
                                  'odometer': 'Kilometraje (millas)', 'price': 'Precio (USD)'},
