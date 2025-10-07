@@ -1,5 +1,3 @@
-# project_sprint_7
-
 # 🚗 Análisis de Vehículos Usados
 
 Esta es una aplicación web interactiva construida con **Streamlit** para explorar un conjunto de datos sobre vehículos en venta en Estados Unidos.
