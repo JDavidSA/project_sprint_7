@@ -23,8 +23,8 @@ The app allows users to visualize key information about available vehicles, incl
 2. Install the required dependencies:
    streamlit, pandas, plotly
 
-## 🌐 Accede al proyecto en línea
+## 🌐 Access the project online
 
-Haz clic en el siguiente enlace para abrir la app directamente en tu navegador:
+Click the following link to open the app directly in your browser:
 
 🔗 https://project-sprint-7-egxb.onrender.com
