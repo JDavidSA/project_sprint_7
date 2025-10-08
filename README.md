@@ -1,26 +1,26 @@
-# 🚗 Análisis de Vehículos Usados
+# 🚗 Used Vehicles Analysis
 
-Esta es una aplicación web interactiva construida con **Streamlit** para explorar un conjunto de datos sobre vehículos en venta en Estados Unidos.
+This is an interactive web application built with Streamlit to explore a dataset of vehicles for sale in the United States.
 
-## 📌 ¿Para qué sirve?
+## 📌 What is it for?
 
-La app permite visualizar información clave sobre los vehículos disponibles, incluyendo:
+The app allows users to visualize key information about available vehicles, including:
 
-- Un **histograma** de precios de los autos.
-- Un **gráfico de dispersión** que muestra la relación entre precio y kilometraje (odómetro).
-- Filtros interactivos con **casillas de verificación** para mostrar u ocultar visualizaciones según el interés del usuario.
+- A **histogram** of car prices.
+- A **scatter plot** showing the relationship between price and mileage (odometer).
+- Interactive filters with **checkboxes** to show or hide visualizations based on user interest.
 
-## 🛠️ Funcionalidades
+## 🛠️ Features
 
-- Carga de datos desde un archivo CSV (`vehicles_us.csv`).
-- Visualización interactiva usando **Plotly Express**.
-- Interfaz simple y rápida usando **Streamlit**.
-- Control total por parte del usuario para visualizar lo que necesita.
+- Data loading from a CSV file (`vehicles_us.csv`).
+- Interactive visualization using **Plotly Express**.
+- Simple and fast interface built with **Streamlit**.
+- Full user control to display the information they need.
 
-## ▶️ ¿Cómo ejecutarla?
+## ▶️ How to run it
 
-1. Asegúrate de tener Python instalado.
-2. Instala las dependencias necesarias:
+1. Make sure you have Python installed.
+2. Install the required dependencies:
    streamlit, pandas, plotly
 
 ## 🌐 Accede al proyecto en línea
