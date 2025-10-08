@@ -1,27 +1,27 @@
-# Importamos las librerías necesarias para este proyecto
+#Import the necessary libraries for this project
 import streamlit as st
 import pandas as pd
 import plotly_express as px
 
-# Extraemos la información de nuestro dataset
+#Extract the information from our dataset
 car_data = pd.read_csv('vehicles_us.csv')
 
-# Creamos un encabezado
-st.title("Análisis de Vehículos Usados")
+#Create a header
+st.title("Used Vehicles Analysis")
 
-# Casilla para mostrar histograma
-if st.checkbox('Mostrar histograma del precio'):
-    st.write("Distribución de precios de los vehículos")
+#Checkbox to display histogram
+if st.checkbox('Show price histogram'):
+    st.write("Vehicle price distribution")
     fig_hist = px.histogram(car_data, x='price', nbins=50,
-                            title='Distribución de precios')
+                            title='Price distribution')
     st.plotly_chart(fig_hist)
 
-# Casilla para mostrar gráfico de dispersión
-if st.checkbox('Mostrar gráfico de dispersión: precio vs odómetro'):
-    st.write("Relación entre precio y kilometraje (odómetro)")
+#Checkbox to display scatter plot
+if st.checkbox('Show scatter plot: price vs odometer'):
+    st.write("Relationship between price and mileage (odometer)")
     fig_scatter = px.scatter(car_data, x='odometer', y='price',
-                             title='Precio vs Odómetro',
+                             title='Price vs Odometer',
                              labels={
-                                 'odometer': 'Kilometraje (millas)', 'price': 'Precio (USD)'},
+                                 'odometer': 'Mileage (miles)', 'price': 'Price (USD)'},
                              opacity=0.6)
     st.plotly_chart(fig_scatter)
